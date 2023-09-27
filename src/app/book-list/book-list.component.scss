@@ -1,0 +1,32 @@
+/*  Title: BookListComponent.scss
+ *  Author: Richard Krasso
+ *  Modified by: Patrick Cuauro
+ *  Date: 09/27/2023
+ *  Description: Book List Component CSS file
+*/
+
+.a-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a-link:hover{
+    text-decoration: underline;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 25px;
+}
+.grid-container__item {
+    padding: 20px;
+    font-size: 30px;
+}
+.grid-container__ahref:hover{
+    text-decoration: underline;
+}
+.grid-container__ahref{
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+{
+    "isbn": "9780141373003",
+    "title": "The Da Vinci Code",
+    "description": "History professor Robert Langdon receives an urgent late-night phone call while on business in France: the curator of the Louvre in Paris has been brutally murdered inside the museum. Alongside the body, police have found a series of baffling codes and need Langdon&#39s help to decipher them.",
+    "numOfPages": 448,
+    "authors": ["Dan Brown"]
+  },
+  {
+    "isbn": "9781405216340",
+    "title": "The Little Prince",
+    "description": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. "Please," asks the stranger, "draw me a sheep."",
+    "numOfPages": 83,
+    "authors": ["Antoine de Saint-Exupery"]
+  },
+  {
+    "isbn": "9781974908332",
+    "title": "The Lion, the Witch and the Wardrobe",
+    "description": "In The Lion, the Witch, and the Wardrobe, four English children are sent to their uncle&#39s house in the country during World War 2. The youngest, Lucy, discovers a wardrobe that is a portal to a magical world, known as Narnia, filled with talking animals, fauns, nymphs, dwarves, and an evil queen who keeps the world always winter but never Christmas",
+    "numOfPages": 115,
+    "authors": ["C.S. Lewis"]
+  },
+  {
+    "isbn": "9780547951980",
+    "title": "The Silmarillion",
+    "description": "The Silmarillion is the core of J.R.R. Tolkien&#39s imaginative writing, a work whose origins stretch back to a time long before The Hobbit. This mythopoetic masterpiece is a must-read before you watch The Lord of the Rings on Amazon",
+    "numOfPages": 368,
+    "authors": ["J.R.R. Tolkien"]
+  },
+  {
+    "isbn": "9780547951966",
+    "title": "The Hobbit",
+    "description": "This deluxe hardcover edition of J.R.R. Tolkien&#39s classic prelude to his Lord of the Rings trilogy contains a short introduction by Christopher Tolkien, a reset text incorporating the most up-to-date corrections, and all of Tolkien’s own drawings and full-color illustrations, including the rare “Mirkwood” piece.",
+    "numOfPages": 320,
+    "authors": ["J.R.R. Tolkien"]
+  }
