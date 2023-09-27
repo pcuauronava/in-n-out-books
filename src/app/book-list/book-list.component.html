@@ -1,0 +1,49 @@
+<!--
+    Title: book-list.component.html
+    Author: Richard Krasso
+    Modified By: Patrick Cuauro
+    Date: 09/27/2023
+    Description: book-list.component.html
+-->
+<ng-container *ngIf="books.length === 0">
+
+    <mat-spinner></mat-spinner>
+
+</ng-container>
+<!-- This spinner will show up while there are no books -->
+
+<div>
+
+    <h2 style="color: green;">Top {{ books.length }} Favorite Books
+        <!-- books.length will show the amount of books we have on our list -->
+    </h2>
+    <div class="grid-container">
+
+        <ng-container *ngFor="let book of books">
+
+            <mat-card class="grid-container__item mat-elevation-z8">
+
+                <mat-card-title>
+
+                    <a class="grid-container__ahref blue" (click)="showBookDetails(book.isbn)">{{ book.title }}</a>
+
+                </mat-card-title><br />
+
+                <mat-card-content>
+
+                    <mat-list-item>ISBN: {{ book.isbn }}</mat-list-item>
+
+                    <mat-list-item>Pages: {{ book.numOfPages }}</mat-list-item>
+
+                    <mat-list-item>Author: {{ book.authors.join(',') }}</mat-list-item>
+
+                </mat-card-content>
+
+            </mat-card>
+
+
+        </ng-container>
+
+    </div>
+
+</div>
